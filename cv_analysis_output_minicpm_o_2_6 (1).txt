@@ -1,0 +1,62 @@
+### Informations extraites du CV :
+
+1. **Nom complet :**
+   - Célia Naudin
+
+2. **Coordonnées :**
+   - Téléphone : 123-456-7890
+   - Email : hello@reallygreatsite.com
+   - Adresse : 123 Anywhere St., Any City
+
+3. **Formation :**
+   - École Amédé Autran (2017 - 2020)
+   - Master communication en alternance
+   - Licence marketing digital
+
+4. **Expérience professionnelle :**
+   - **Groupe Frame** (2021 - 2026):
+     - Chargée de communication:
+       - Gestion de la stratégie de communication
+       - Développement des réseaux sociaux
+       - Production de contenus éditoriaux
+       - Organisation d'événements
+   - **Bancollect** (2019 - 2020):
+     - Assistante communication en alternance:
+       - Création et publication de contenu
+       - Participation à des projets de marketing
+       - Veille sur les tendances des réseaux sociaux
+
+5. **Compétences :**
+   - Réseaux sociaux
+   - Graphisme
+   - Référencement
+   - Vidéo
+
+### Comparaison avec le poste de data analyst :
+
+Le poste de data analyst exige des compétences en SQL, Python, Power BI ou Tableau, ainsi que de bonnes compétences en communication.
+
+### Évaluation de l'adéquation du candidat :
+
+Échelle de 0 à 100 : 30
+
+#### Justification :
+
+1. **Compétences en SQL, Python, Power BI ou Tableau :**
+   - L'image ne fournit aucune information sur ces compétences spécifiques.
+   
+2. **Communication :**
+   - L'image montre des compétences en communication, mais pas spécifiquement dans le contexte de data analyst.
+
+3. **Relevancy of Education:**
+   - Formation en communication et licence marketing digital suggèrent une forte compétence en marketing et en communication, qui sont essentielles pour un data analyst, mais non suffisantes pour le poste.
+
+### Points forts du candidat :
+
+- Absence de compétences spécifiques mentionnées dans la demande du poste (SQL, Python, Power BI ou Tableau).
+- Manque d'informations sur les compétences techniques nécessaires au poste de data analyst.
+
+### Points faibles du candidat :
+
+- Les compétences en communication et en marketing peuvent être transférables, mais ne sont pas directement liées aux compétences de data analyst.
+- L'absence de certifications ou de projets spécifiques dans le domaine de la data analytics est un point faible.
