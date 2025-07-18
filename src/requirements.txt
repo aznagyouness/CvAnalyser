@@ -1,0 +1,38 @@
+# Core FastAPI stack
+fastapi==0.110.2
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.11.7
+pydantic-settings==2.2.1
+
+# File handling
+aiofiles==23.2.1
+
+# AI/ML stack
+langchain==0.1.20
+openai==1.66.3
+cohere==5.5.8
+qdrant-client==1.10.1
+nltk==3.9.1
+
+# MongoDB stack
+# motor is used for async MongoDB operations
+# pymongo is the underlying driver for MongoDB, they are compatible
+motor==3.4.0
+pymongo==4.6.3
+# Consider removing pydantic-mongo if it causes issues
+# pydantic-mongo==2.3.0
+PyMuPDF==1.24.3
+
+# PostgreSQL stack
+SQLAlchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+psycopg2==2.9.10
+pgvector==0.4.0
+
+# Fixed dependencies to resolve Docker warnings
+urllib3>=2.2.1,<3.0.0  # Resolves RequestsDependencyWarning
+chardet>=5.2.0,<6.0.0   # Resolves RequestsDependencyWarning
+requests>=2.31.0        # Ensures compatibility with urllib3/chardet
