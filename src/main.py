@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from helpers.config import get_settings
-from routes import data, data_multiple, data_multiple_deep_seek
+from routes import data, data_multiple
 from motor.motor_asyncio import AsyncIOMotorClient
 
 
@@ -32,4 +32,3 @@ app = FastAPI(lifespan=lifespan)
 # Include routes
 app.include_router(data.data_router)
 app.include_router(data_multiple.data_router)
-app.include_router(data_multiple_deep_seek.data_router)

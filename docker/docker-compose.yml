@@ -5,10 +5,10 @@ services:
     image: mongo:7.0.21-jammy
     container_name: my-mongo
     ports:
-      - "27007:27017"
+      - "27017:27017"
     environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
       TZ: UTC
     volumes:
       - mongo-data:/data/db
