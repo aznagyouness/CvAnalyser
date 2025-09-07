@@ -4,6 +4,8 @@ from helpers.config import get_settings
 from routes import data, data_multiple
 from motor.motor_asyncio import AsyncIOMotorClient
 
+from utils.metrics import setup_metrics
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -28,6 +30,9 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+
+# Setup Prometheus metrics
+setup_metrics(app)
 
 # Include routes
 app.include_router(data.data_router)
